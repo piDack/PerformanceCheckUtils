@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T07:00:30.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.5" etag="WnFskNyQfxpZSjfk7QkO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T08:40:16.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="Rsbi_PtvHfBfdwcWcjvl" version="21.6.5" type="github">
   <diagram name="Page-1" id="6IKza2lpsUr6sdjIMytS">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lSijH3yCQFnMYCVT67lt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lSijH3yCQFnMYCVT67lt-1" target="lSijH3yCQFnMYCVT67lt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lSijH3yCQFnMYCVT67lt-1" value="cutlass_tensorop_d884gemm_32x32_16x3_nn_align1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSijH3yCQFnMYCVT67lt-2" value="GemmUniversalAdapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSijH3yCQFnMYCVT67lt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lSijH3yCQFnMYCVT67lt-3" target="lSijH3yCQFnMYCVT67lt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lSijH3yCQFnMYCVT67lt-3" value="GemmUniversalBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSijH3yCQFnMYCVT67lt-8" value="GemmKernel" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
